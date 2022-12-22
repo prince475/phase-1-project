@@ -68,5 +68,17 @@ homeLink.addEventListener('click', () => {
     searchRow.style.display = "none"
     
 })
+//SEARCH FORM SUBMIT LISTENER 
+searchForm.addEventListener('submit', (e) => {
+    e.preventDefault()
+    const query = searchInput.value
+    searchMeal(query)
+    homeRow.style.display = "none"
+    mealCategoryRow.style.display = "none"
+    drinksRow.style.display = "none"
+    dessertRow.style.display = "none"
+    searchRow.style.display = "block"
+    searchRow.removeAttribute('hidden')
+})
 
 })
