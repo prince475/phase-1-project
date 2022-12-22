@@ -80,5 +80,30 @@ searchForm.addEventListener('submit', (e) => {
     searchRow.style.display = "block"
     searchRow.removeAttribute('hidden')
 })
+//CREATE MEALS
+const createCategory = (image, name) =>{
+    const rootDiv = document.createElement('div')
+    rootDiv.classList.add('col-4', 'p-1')
+
+    const cardDiv = document.createElement('div')
+    cardDiv.classList.add('card', 'col-12', 'p-2')
+
+    const categoryImg = document.createElement('img')
+    categoryImg.classList.add('card-img-top')
+    categoryImg.src = image
+
+    const categoryTitle = document.createElement('h4')
+    categoryTitle.classList.add('card-title')
+    categoryTitle.innerText = name
+
+    //APPEND IMAGE AND TITLE TO CARD
+    cardDiv.appendChild(categoryImg)
+    cardDiv.appendChild(categoryTitle)
+
+    rootDiv.appendChild(cardDiv)
+    
+    return rootDiv
+
+}
 
 })
