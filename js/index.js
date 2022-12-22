@@ -178,5 +178,18 @@ const loadCategories = () => {
             mealCategoryRow.append(...categoryElems)
         })
 } 
+//LOAD RANDOM DRINK
+const loadDrinks = () => {
+    fetch(Drinks)
+    .then((response) => response.json())
+    .then((data) => {
+        const drinksData = data.drinks[0]
+        const name = drinksData.strCategory
+        const description = drinksData.strInstructions
+        const image = drinksData.strDrinkThumb
+        const drinksElement = createDrinks(image, name, description)
+        drinksRow.appendChild(drinksElement)
+    })
+}
 
 })
