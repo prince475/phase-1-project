@@ -105,5 +105,37 @@ const createCategory = (image, name) =>{
     return rootDiv
 
 }
+//CREATE DRINKS
+const createDrinks =  (image, name, description) => {
+    const rootDiv = document.createElement('div')
+    rootDiv.classList.add('col-4', 'p-1')
+
+    const cardDiv = document.createElement('div')
+    cardDiv.classList.add('card', 'col-22', 'p-2')
+
+       const drinksImg = document.createElement('img')
+       drinksImg.classList.add('card-img', 'h-100')
+       drinksImg.src = image
+       drinksImg.objectFit = 'cover'
+       
+       const drinksTitle = document.createElement('h5')
+       drinksTitle.classList.add('card-title')
+       drinksTitle.innerText = name
+
+       const drinksDescription = document.createElement('p')
+       drinksDescription.classList.add('card-text')
+       drinksDescription.innerText = description
+
+       //APPEND TITLE AND IMAGE TO CARD
+       cardDiv.appendChild(drinksImg)
+       cardDiv.appendChild(drinksTitle)
+       cardDiv.appendChild(drinksDescription)
+
+       //APPEND TO ROOT DIV
+       rootDiv.appendChild(cardDiv)
+
+       //RETURN ROOTDIV
+       return rootDiv
+}
 
 })
