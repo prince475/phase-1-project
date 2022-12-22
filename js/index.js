@@ -137,5 +137,34 @@ const createDrinks =  (image, name, description) => {
        //RETURN ROOTDIV
        return rootDiv
 }
+//CREATE SEARCH RESULTS
+const createSearchResults = (name, image, link) => {
+    const rootDiv = document.createElement('div')
+    rootDiv.classList.add('col-3', 'p-1')
+
+    const cardDiv = document.createElement('div')
+    cardDiv.classList.add('card', 'px-0', 'p-1')
+
+    const mealImg = document.createElement('img')
+    mealImg.classList.add('card-img-top')
+    mealImg.src = image
+
+    const mealTitle = document.createElement('h6')
+    mealTitle.classList.add('p-2')
+    mealTitle.innerText = name
+
+    const mealLink = document.createElement('a')
+    mealLink.classList.add('mt-1', 'mb-2', 'me-3', 'ms-3', 'btn', 'btn-warning')
+    mealLink.innerText = 'VISIT ...'
+    mealLink.href = link
+    mealLink.target = '_blank'
+
+    cardDiv.appendChild(mealImg)
+    cardDiv.appendChild(mealTitle)
+    cardDiv.appendChild(mealLink)
+
+    rootDiv.appendChild(cardDiv)
+    return rootDiv
+}
 
 })
