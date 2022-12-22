@@ -63,7 +63,7 @@ Using HTNL CSS and the DOM I have been able to manipulate the page and add custo
 
 ## Access
 To access the content on the browser:
-* click on this link (https://prince475.github.io/phase-1-project/#)
+* click on this depolyment link (http://phase-1-project-delta.vercel.app/#) in the about section on git hub.
 
    * or
 
