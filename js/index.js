@@ -211,5 +211,7 @@ const loadDrinks = () => {
                 searchRow.replaceChildren(...searchResults)
             })
     }
+    loadCategories()
+    loadDrinks()
 
 })
