@@ -191,5 +191,25 @@ const loadDrinks = () => {
         drinksRow.appendChild(drinksElement)
     })
 }
+//SEARCH DATA
+    // search data
+    const searchMeal = (meal) => {
+        fetch(`${Search}${meal}`)
+            .then((response) => response.json())
+            .then((data) => {
+                const mealDataList = data.meals
+                const searchResults = mealDataList.map(
+                    mealData => {
+                        const name = mealData.strMeal
+                        const image = mealData.strMealThumb
+                        const link = mealData.strYoutube
+                        console.log(name)
+                        return createSearchResults(name, image, link)
+                    }
+                )
+                // replace all children
+                searchRow.replaceChildren(...searchResults)
+            })
+    }
 
 })
