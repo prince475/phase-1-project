@@ -79,7 +79,7 @@ To access the content on the browser:
 
 ## Author
 - This project was contributed to by: 
-* [Prince Daniel](https://github.com/prince475/phase-1-project)
+ [Prince Daniel](https://github.com/prince475/phase-1-project)
 
 ## License
 * This project is licensed under ISC
