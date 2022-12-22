@@ -36,5 +36,16 @@ mealsLink.addEventListener('click', () => {
     mealCategoryRow.removeAttribute('hidden')
     mealCategoryRow.style.display = "flex"
 })
+drinksLink.addEventListener('click', () => {
+    //HIDE MEALS
+    mealCategoryRow.style.display = "none"
+    //HIDE DESSERT
+    dessertRow.style.display = "none"
+    //HIDE SEARCH PAGE
+    searchRow.style.display = "none"
+    //SHOW DRINKS
+    drinksRow.removeAttribute('hideen')
+    drinksRow.style.display = "flex"
+})
 
 })
