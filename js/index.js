@@ -18,4 +18,9 @@ const homeLink = document.getElementById('home-link')
 const mealsLink = document.getElementById('meals-link')
 const drinksLink = document.getElementById('drinks-link')
 const dessertLink = document.getElementById('dessert-link')
+
+
+//SEARCH FORM
+const searchForm = document.getElementById('search-form')
+const searchInput = document.getElementById('search')
 })
