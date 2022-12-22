@@ -166,5 +166,17 @@ const createSearchResults = (name, image, link) => {
     rootDiv.appendChild(cardDiv)
     return rootDiv
 }
+//LOADING MEAL CATEGORIES
+const loadCategories = () => {
+    fetch(Meals)
+        .then((response) => response.json())
+        .then((data) => {
+            const categoriesData = data.categories
+            const categoryElems = categoriesData.map(
+                cat => createCategory(cat.strCategoryThumb, cat.strCategory)
+            )
+            mealCategoryRow.append(...categoryElems)
+        })
+} 
 
 })
