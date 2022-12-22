@@ -5,5 +5,11 @@ const Search = 'https://www.themealdb.com/api/json/v1/1/search.php?s='
 
 //ADDIMG DOM CONTENT EVENT LISTENER TO LOAD CONTENT IN THE DOM
 document.addEventListener('DOMContentLoaded', () => {
-    
+
+    //ROWS DATA
+const homeRow = document.getElementById('home')
+const mealCategoryRow = document.getElementById('meals')
+const searchRow = document.getElementById('search-result')
+const dessertRow = document.getElementById('dessert')
+const drinksRow = document.getElementById('drinks')
 })
