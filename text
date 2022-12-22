@@ -1,30 +1,27 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
-     <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/374c7cd877.js" crossorigin="anonymous"></script>
     <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
     
-</head>
+<!-- </head>
 <body>
   <div class="header">
     <title id="title"></title>
       <h1>Killies</h1>
   </div>
     <div class="nav-bar">
-            <a class="active" href="#" id="home-link"><i class="fa fa-fw fa-home" ></i> Home</a>
-            <a class="text-light nav-link" href="#" id="meals-link"><i class="fa-duotone fa-pot-food"></i> Meals</a>
-            <a class="text-light nav-link" href="#" id="drinks-link"><i class="fa-solid fa-martini-glass-citrus"></i> Drinks</a>
-            <a class="text-light nav-link" href="#" id="dessert-link"><i class="fa-solid fa-bowl-scoop"></i> Dessert</a>
-            <form class="d-flex searchMeals" id="search-form">
-            <input type="text" placeholder="Search.." id="search"/>
-            <button type="submit" id="searchBtn">Search</button>
-          </form>
+            <a class="active" href="#section-1"><i class="fa fa-fw fa-home"></i> Home</a>
+            <a href="#section-2"><i class="fa-duotone fa-pot-food"></i> Meals</a>
+            <a href="#section-3"><i class="fa-solid fa-martini-glass-citrus"></i> Drinks</a>
+            <a href="#section-4"><i class="fa-solid fa-bowl-scoop"></i> Dessert</a>
+            <input type="text" placeholder="Search.."> -->
+
             <!-- <div class="dropdown">
                 <button class="dropbtn"><i class="fa fa-caret-down"></i>Dropdown</button>
                 <div class="dropdown-content">
@@ -33,24 +30,24 @@
                   <a href="#">Link 3</a>
                 </div>
             </div> -->
-      </div>
+      <!-- </div>
 
     <div class="row">
       <div class="left-column">
         <div class="card-0">
           <!-- <img class="card-image" src="./pilau.jpg" alt="" id="rand-meal-img"> -->
-          <h2>Chef's Specials</h2>
+          <!-- <h2>Chef's Specials</h2>
           <h5>Todays suggestions by our mitchelin star chef</h5>
           <div class="left-column-img" style="height:300px;"></div>
           <p></p>
         </div>
-        <div class="card-1">
+        <div class="card-1"> --> -->
           <!-- <img class="card-image" src="./shawrma.jpg" alt="" id="rand-meal-img"> -->
-          <h2>Best Desserts in Town</p>
+          <!-- <h2>Best Desserts in Town</p>
          
-          <div class="card-img" style="height:400px;">
+          <div class="card-img" style="height:400px;"> -->
             <!-- <img class="card-image" src="./shawrma.jpg" alt="" id="rand-meal-img">  -->
-          </div>
+          <!-- </div>
           <p></p>
         </div>
       </div>
@@ -60,17 +57,16 @@
             <h5>Did you know ?</h5>
             <div class="right-column-img" style="height:200px;">Image</div>
             <!-- <img class="card-image" src="./appletart.jpg" alt="" id="rand-meal-img"> -->
-            <p>Black pepper is a flowering vine in the family Piperaceae, 
+            <!-- <p>Black pepper is a flowering vine in the family Piperaceae, 
               cultivated for its fruit, known as a peppercorn, 
               which is usually dried and used as a spice and seasoning. 
               The fruit is a drupe which is about 5 mm in diameter, 
-              dark red, and contains a stone which encloROAST-Y
-              ses a single pepper seed.</p>
+              dark red, and contains a stone which encloses a single pepper seed.</p>
           </div>
         
         </div>
     </div>
-     
+
     <div class="container mt-5" id="main-container">
       <div class="row" id="home">
 
@@ -102,19 +98,16 @@
 
 
 
-
-    <div class="footer">
+    <div class="footer"> -->
       <!-- <img src="pilau.jpg" alt=""> -->
-      <h3>Contact Details</h3>
+      <!-- <h3>Contact Details</h3>
       <h3>Feedback Form</h3>
       <h3>Book Reservation</h3>
       <h3>Order Take-Out</h3>
 
     </div>
-</body>
+</body> --> -->
 <!-- <script type="text/javascript" src="js/bootstrap.js"></script> -->
-<script src="https://kit.fontawesome.com/374c7cd877.js" crossorigin="anonymous"></script>
+<!-- <script src="https://kit.fontawesome.com/374c7cd877.js" crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/index.js"></script>
-<!-- <script type="text/javascript" src="js/bootstrap.js"></script> -->
-  
-</html>
+</html> --> -->
