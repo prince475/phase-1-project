@@ -23,4 +23,18 @@ const dessertLink = document.getElementById('dessert-link')
 //SEARCH FORM
 const searchForm = document.getElementById('search-form')
 const searchInput = document.getElementById('search')
+
+//CLICK EVENTS FOR LINKS
+mealsLink.addEventListener('click', () => {
+    // HIDE DRINKS
+    drinksRow.style.display = "none"
+    //HIDE DESSERT
+    dessertRow.style.display = "none"
+    //HIDE SEARCH PAGE
+    searchRow.style.display = "none"
+    //SHOW MEALS
+    mealCategoryRow.removeAttribute('hidden')
+    mealCategoryRow.style.display = "flex"
+})
+
 })
